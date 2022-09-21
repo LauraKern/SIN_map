@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="199f77cf-9375-4cf5-99b9-bce0c0e3dc8c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1lvJ20MkHVAYnT7ltxNPYHzHTap" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="199f77cf-9375-4cf5-99b9-bce0c0e3dc8c" name="Default Changelist" comment="" />
+      <created>1608471424976</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608471424976</updated>
+      <workItem from="1608471427681" duration="10982000" />
+      <workItem from="1608564873457" duration="7038000" />
+      <workItem from="1608636065134" duration="695000" />
+      <workItem from="1609179286496" duration="11787000" />
+      <workItem from="1609686868897" duration="2577000" />
+      <workItem from="1609778215880" duration="618000" />
+      <workItem from="1610031503122" duration="13050000" />
+      <workItem from="1610115721489" duration="1103000" />
+      <workItem from="1611150353763" duration="5350000" />
+      <workItem from="1611262108405" duration="188000" />
+      <workItem from="1611492592532" duration="518000" />
+      <workItem from="1612099623194" duration="8723000" />
+      <workItem from="1612178776883" duration="956000" />
+      <workItem from="1612531762059" duration="501000" />
+      <workItem from="1612532821219" duration="1211000" />
+      <workItem from="1612723746827" duration="510000" />
+      <workItem from="1612725795384" duration="3866000" />
+      <workItem from="1614765185769" duration="4103000" />
+      <workItem from="1615802052218" duration="7226000" />
+      <workItem from="1615982846930" duration="4961000" />
+      <workItem from="1616067234345" duration="4162000" />
+      <workItem from="1616106971833" duration="1192000" />
+      <workItem from="1616421998926" duration="7581000" />
+      <workItem from="1616613863143" duration="5466000" />
+      <workItem from="1617201938334" duration="656000" />
+      <workItem from="1617461585036" duration="1920000" />
+      <workItem from="1619959979643" duration="4079000" />
+      <workItem from="1620119022568" duration="558000" />
+      <workItem from="1621451699777" duration="602000" />
+      <workItem from="1621947796813" duration="1770000" />
+      <workItem from="1622199939040" duration="599000" />
+      <workItem from="1623772487289" duration="486000" />
+      <workItem from="1623947600432" duration="639000" />
+      <workItem from="1629104467699" duration="954000" />
+      <workItem from="1631364048935" duration="3122000" />
+      <workItem from="1638639613003" duration="98000" />
+      <workItem from="1663788072594" duration="1179000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/map2.js</url>
+          <line>100</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
