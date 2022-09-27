@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="113e7fe6-9873-49e3-aadf-0d9f099c4a01" name="Changes" comment="replace old project">
+    <list default="true" id="113e7fe6-9873-49e3-aadf-0d9f099c4a01" name="Changes" comment="whole screen Map">
+      <change beforePath="$PROJECT_DIR$/.eslintrc.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.cjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Test.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Map.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Map.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Map.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +63,7 @@
       <recent name="$PROJECT_DIR$/SIN_map/src/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev (1)">
+  <component name="RunManager" selected="npm.lint">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/SIN_map/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -84,9 +87,20 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev (1)" />
+        <item itemvalue="npm.lint" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="npm.dev" />
       </list>
@@ -101,7 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1663788935743</updated>
       <workItem from="1663788937929" duration="4041000" />
-      <workItem from="1664021039044" duration="3908000" />
+      <workItem from="1664021039044" duration="5587000" />
     </task>
     <task id="LOCAL-00001" summary="on vue">
       <created>1663792945224</created>
@@ -124,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664274911836</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="whole screen Map">
+      <created>1664275236590</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664275236590</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +166,7 @@
     <MESSAGE value="on vue" />
     <MESSAGE value="old functionality back" />
     <MESSAGE value="replace old project" />
-    <option name="LAST_COMMIT_MESSAGE" value="replace old project" />
+    <MESSAGE value="whole screen Map" />
+    <option name="LAST_COMMIT_MESSAGE" value="whole screen Map" />
   </component>
 </project>
