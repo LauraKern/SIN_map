@@ -1,5 +1,5 @@
 <template>
-  <l-map style="height:50vh" :center="[-10.83330, -58.71093]" zoom="5">
+  <l-map style="height:100vh" :center="[-10.83330, -58.71093]" zoom="5">
     <l-tile-layer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
     ></l-tile-layer>

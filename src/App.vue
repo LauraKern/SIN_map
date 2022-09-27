@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import Test from "@/components/Test.vue";
+import Map from "@/components/Map.vue";
 </script>
 
 <template>
-  <Test></Test>
+  <Map></Map>
 </template>
 
 <style scoped>
