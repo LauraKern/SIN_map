@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="113e7fe6-9873-49e3-aadf-0d9f099c4a01" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SIN_map/src/components/Test.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="113e7fe6-9873-49e3-aadf-0d9f099c4a01" name="Changes" comment="on vue">
+      <change afterPath="$PROJECT_DIR$/SIN_map/public/assets/box_cesta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SIN_map/public/assets/box_cesta_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SIN_map/public/assets/sust_leaf.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapData.json" beforeDir="false" afterPath="$PROJECT_DIR$/SIN_map/src/assets/mapData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIN_map/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/SIN_map/src/assets/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIN_map/src/components/Test.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SIN_map/src/components/Test.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/map.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +39,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "TF_FMT": "false",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/gian/IdeaProjects/SIN_map/SIN_map/src",
+    "last_opened_file_path": "/home/gian/IdeaProjects/SIN_map/SIN_map/public/assets",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -49,14 +52,21 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SIN_map/public/assets" />
+      <recent name="$PROJECT_DIR$/SIN_map/src/assets" />
       <recent name="$PROJECT_DIR$/SIN_map/src" />
       <recent name="$PROJECT_DIR$/SIN_map" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SIN_map/public/assets" />
+      <recent name="$PROJECT_DIR$/SIN_map/public" />
       <recent name="$PROJECT_DIR$/SIN_map/src/assets" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/SIN_map/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/SIN_map/package.json" />
       <command value="run" />
@@ -69,6 +79,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
@@ -81,8 +92,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663788935743</updated>
-      <workItem from="1663788937929" duration="3740000" />
+      <workItem from="1663788937929" duration="4041000" />
+      <workItem from="1664021039044" duration="3200000" />
     </task>
+    <task id="LOCAL-00001" summary="on vue">
+      <created>1663792945224</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663792945224</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,5 +118,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="on vue" />
+    <option name="LAST_COMMIT_MESSAGE" value="on vue" />
   </component>
 </project>

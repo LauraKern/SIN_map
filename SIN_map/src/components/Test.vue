@@ -1,5 +1,5 @@
 <template>
-  <l-map style="height:50vh" :center="[-10.83330, -58.71093]" zoom="5" >
+  <l-map style="height:50vh" :center="[-10.83330, -58.71093]" zoom="5">
     <l-tile-layer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
     ></l-tile-layer>
@@ -30,26 +30,73 @@ export default {
   },
   async beforeMount() {
     // HERE is where to load Leaflet components!
-    const { circleMarker } = await import("leaflet/dist/leaflet-src.esm");
+    const {icon, marker} = await import("leaflet/dist/leaflet-src.esm");
 
-    this.geojsonOptions.pointToLayer = function(geoJsonPoint, latlng) {
-      console.log(geoJsonPoint);
-      switch (geoJsonPoint.properties.markerColor) {
-        case "box2Icon": return circleMarker(latlng, { radius: 8 });
-        case "sustIcon": return circleMarker(latlng, { radius: 8 });
-        // default: return L.marker(latlng, {icon: boxIcon});
-      }
+    var areaType1 = {
+      "color": "#b1743d",
+      "weight": 5,
+      "opacity": 0.65
     };
 
-    this.geojsonOptions.onEachFeature = function onEachFeature(feature, layer) {
-      if (feature.properties && feature.properties.popupContent) {
-        layer.bindPopup(feature.properties.popupContent);
+    var areaType2 = {
+      "color": "#3baf21",
+      "weight": 5,
+      "opacity": 0.65
+    };
+
+    var boxIcon = icon({
+      iconUrl: "assets/box_cesta.png",
+
+      iconSize: [40, 40], // size of the icon
+      iconAnchor: [22, 49],  // point of the icon which will correspond to marker's location
+      popupAnchor: [-3, -76], // point from which the popup should open relative to the iconAnchor
+    });
+
+    var sustIcon = icon({
+      iconUrl: "assets/sust_leaf.png",
+
+      iconSize: [38, 95], // size of the icon
+      iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
+      popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
+    });
+
+    var box2Icon = icon({
+      iconUrl: "assets/box_cesta_2.png",
+
+      iconSize: [40, 40], // size of the icon
+      iconAnchor: [22, 49],  // point of the icon which will correspond to marker's location
+      popupAnchor: [-3, -76], // point from which the popup should open relative to the iconAnchor
+    });
+
+    this.geojsonOptions = {
+      pointToLayer: function (geoJsonPoint, latlng) {
+        console.log(geoJsonPoint);
+        switch (geoJsonPoint.properties.markerColor) {
+          case "box2Icon":
+            return marker(latlng, {icon: box2Icon});
+          case "sustIcon":
+            return marker(latlng, {icon: sustIcon});
+
+          default:
+            return marker(latlng, {icon: boxIcon});
+        }
+      },
+
+      style: function (feature) {
+
+        switch (feature.properties.areaType) {
+          case 'typ1':
+            return areaType1;
+          case 'typ2':
+            return areaType2;
+        }
+      },
+      onEachFeature: function onEachFeature(feature, layer) {
+        if (feature.properties && feature.properties.popupContent) {
+          layer.bindPopup(feature.properties.popupContent);
+        }
       }
     }
-
-
-
-    this.mapIsReady = true;
   },
 };
 
